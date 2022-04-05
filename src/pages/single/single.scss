@@ -1,0 +1,25 @@
+.single{
+    display: flex;
+    flex-direction: column;
+
+    // .singleTopbar{
+    //     flex:1
+    // }
+
+    .doubles{
+        display: flex;
+        flex-direction: row;
+        // flex: 3;
+
+        .sp{
+            flex: 3;
+            // background-color: blue;
+        }
+
+        .sb{
+            flex:1;
+        }
+
+    }
+    
+}

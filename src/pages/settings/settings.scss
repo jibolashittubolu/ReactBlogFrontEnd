@@ -1,0 +1,94 @@
+.settings{
+    display: flex;
+
+    .settingsWrapper{
+        flex: 3;
+        padding: 30px;
+
+        .settingsTitle{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .settingsTitleUpdate{
+                font-size: 30px;
+                margin-bottom: 20px;
+                color: lightcoral;
+                margin-top: 15px;
+                cursor: pointer;
+            }
+
+            .settingsTitleDelete{
+                color: red;
+                cursor: pointer;
+            }
+
+        }
+
+        .settingsForm{
+            display: flex;
+            flex-direction: column;
+
+            label{
+                font-size: 20px;
+                margin-top: 15px;
+            }
+
+            input{
+                color: gray;
+                margin: 10px 0px;
+                height: 30px;
+                border: none;
+                border-bottom: 1px solid lightgray;
+            }
+
+            .settingsProfilePicture{
+                display: flex;
+                align-items: center;
+
+                .settingsProfilePictureImage{
+                    height: 100px;
+                    width: 100px;
+                    // margin-left: 50px;
+                    object-fit: cover;
+                    border-radius: 40px;
+                }
+
+                .settingsProfilePictureIcon{
+                    height: 25px;
+                    width: 25px;
+                    border-radius: 50%;
+                    background-color: coral;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+
+                #fileInput{
+                    display: none;
+                }
+            }
+
+            .settingsSubmit{
+                margin-top: 85px;
+                height: 150px;
+                border: none;
+                cursor: pointer;
+                color: white;
+                // background-color: black;
+                background-color: rgb(255, 0, 157);
+                border-radius: 5px;
+                padding: 10px;
+                cursor: pointer;
+                font-size: 28px;
+                font-family: 'Varela Round', 'sans-serif';
+                font-weight: bold;
+            }
+
+        }
+
+    }
+
+}
