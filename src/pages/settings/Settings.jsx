@@ -1,4 +1,4 @@
-import './settings.scss'
+import './settings.scss' 
 import Sidebar from '../../components/sidebar/Sidebar'
 import { AccountCircleOutlined } from '@material-ui/icons'
 
