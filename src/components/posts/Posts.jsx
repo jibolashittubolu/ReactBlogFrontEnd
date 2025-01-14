@@ -6,6 +6,7 @@ function Posts(props) {
     const {propFetchedPosts} = props
     return (
         <div className="posts">
+            
             {
                 propFetchedPosts.map(
                     (singleFetchedPost, key) => (
