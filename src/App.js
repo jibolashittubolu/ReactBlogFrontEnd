@@ -14,7 +14,7 @@ import Sidebar from './components/sidebar/Sidebar'
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 
-
+ 
 function AppIntermediate() {
   return (
     <div className="App">
