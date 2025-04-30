@@ -6,7 +6,6 @@ import { useState, useContext } from 'react';
 import { aContext } from '../../context/Context';
 import axios from 'axios';
 
-
 function Login() {
     const navigate = useNavigate()
 
