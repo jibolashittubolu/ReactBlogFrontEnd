@@ -2,6 +2,7 @@ import './post.scss'
 import love_cupcake from '../../assets/images/love_cupcake.jpg'
 import {Link} from "react-router-dom";
 
+
 function Post(props) {
     const PublicFolderURL = "http://localhost:5000/submittedimages/"
     const {propsingleFetchedPost} = props;
