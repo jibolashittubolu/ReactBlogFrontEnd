@@ -8,7 +8,6 @@ import axios from 'axios';
 import { aContext } from '../../context/Context';
 import { useNavigate } from 'react-router-dom';
 
-
 function Write() {
     const navigate = useNavigate()
     const {user} = useContext(aContext);
