@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
 // import afd from '../../../src/media/images/logo.svg';
- 
 import {Routes, Route, useNavigate} from "react-router-dom";
 // import { BrowserRouter as Router, Switch, Routes, Route, Link} from "react-router-dom";
 
